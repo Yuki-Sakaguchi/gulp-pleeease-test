@@ -11,7 +11,10 @@ http://phiary.me/gulp-pleeease/
 http://kojika17.com/2014/01/autoprefixer.html
 http://parashuto.com/rriver/tools/using-custom-data-for-autoprefixer
 http://koltatt.net/web_design/gulp_pleeease/
-http://smatabinfo.jp/os/android/index.html（シェアの確認）
+
+### シェアの確認
+http://smatabinfo.jp/os/android/index.html
+
 
 
 ## gulp-pleeeaseが便利
@@ -39,4 +42,4 @@ Autoprefixerだけでなく、ミニファイやらなんやらいろいろで�
 
 
 ## デモページ
-https://yuki-sakaguchi.github.io/gulp-pleeease-test/public/index.html
+https://yuki-sakaguchi.github.io/gulp-pleeease-test/public/
