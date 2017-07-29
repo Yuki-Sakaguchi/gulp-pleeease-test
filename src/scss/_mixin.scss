@@ -1,0 +1,12 @@
+// ==================
+//    mixin
+// ==================
+@mixin btn($color:#aaa) {
+    color: $color;
+    display: block;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    float: left;
+    margin-left: 10px;
+}

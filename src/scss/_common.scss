@@ -1,0 +1,33 @@
+/* ==================
+    common
+
+    index
+        - wrapper
+        - btn
+================== */
+
+// ==================
+//    btn
+// ==================
+section {
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+
+// ==================
+//    btn
+// ==================
+.btn-wrapper {
+    @include clearfix;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background: $black;
+    @include btn($white);
+
+    &:before {
+        content: "PC";
+    }
+}

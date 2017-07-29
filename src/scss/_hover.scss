@@ -1,0 +1,9 @@
+/* ==================
+    hover
+================== */
+.btn {
+    &:hover {
+        background: $gray;
+        animation: fadeOut 2s forwards;
+    }
+}

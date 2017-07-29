@@ -1,0 +1,19 @@
+/* ==================
+    base
+================== */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%; // base font size = 10px
+    font-family: $main_font_family;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
