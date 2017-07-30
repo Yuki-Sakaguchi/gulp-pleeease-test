@@ -1,9 +1,26 @@
 /* ==================
     hover
 ================== */
-.btn {
+
+// ==================
+//    variable
+// ==================
+%fade-hover {
+    opacity: 1;
+    transition: opacity 0.3s;
+
     &:hover {
-        background: $gray;
-        animation: fadeOut 2s forwards;
+        opacity: 0.6;
+
+        &:before {
+            content: "PCだけhover有効";
+        }
     }
+}
+
+// ==================
+//    setting
+// ==================
+.btn {
+    @extend %fade-hover;
 }

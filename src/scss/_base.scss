@@ -12,8 +12,14 @@ html {
 
 h1 {
     font-size: 2rem;
+    @include h();
 }
 
-h2 {
-    font-size: 1.5rem;
+section {
+    margin: 30px;
+}
+
+p {
+    padding: 5px 10px;
+    font-size: 1.2rem;
 }

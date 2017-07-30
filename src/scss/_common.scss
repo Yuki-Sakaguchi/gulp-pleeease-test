@@ -2,18 +2,8 @@
     common
 
     index
-        - wrapper
         - btn
 ================== */
-
-// ==================
-//    btn
-// ==================
-section {
-    margin-bottom: 30px;
-    margin-left: 30px;
-}
-
 
 // ==================
 //    btn
@@ -29,5 +19,9 @@ section {
 
     &:before {
         content: "PC";
+    }
+
+    &:active {
+        animation: wideBox 1s forwards infinite alternate;
     }
 }

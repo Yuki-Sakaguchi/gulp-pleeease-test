@@ -1,12 +1,19 @@
 // ==================
 //    mixin
 // ==================
-@mixin btn($color:#aaa) {
+@mixin btn($color: #aaa) {
     color: $color;
     display: block;
-    width: 100px;
-    padding: 10px;
+    width: 30%;
+    padding: 2.9%;
     text-align: center;
     float: left;
     margin-left: 10px;
+    cursor: pointer;
+}
+
+@mixin h($color: $black, $borderSize: 1) {
+    border-left: (3px * $borderSize) solid $color;
+    border-bottom: (1px * $borderSize) solid $color;
+    padding: 10px;
 }
