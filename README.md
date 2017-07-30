@@ -7,7 +7,6 @@ cssにベンダープレフィックスを自動でつけるツール
 
 
 ## 参考
-* http://phiary.me/gulp-pleeease/
 * http://kojika17.com/2014/01/autoprefixer.html
 * http://parashuto.com/rriver/tools/using-custom-data-for-autoprefixer
 * http://koltatt.net/web_design/gulp_pleeease/
@@ -18,6 +17,17 @@ http://smatabinfo.jp/os/android/index.html
 
 ## gulp-pleeeaseが便利
 Autoprefixerだけでなく、ミニファイやらなんやらいろいろできるらしいのでこれを使った。めちゃくちゃ便利。
+
+http://phiary.me/gulp-pleeease/
+
+* CSS の事前処理
+* ベンダープレフィックスの付与( Autoprefixer )
+* rem をピクセルに変換した値も指定. rem をサポートしていないブラウザでも安心♪
+* IE8 のための opacity filter を追加
+* CSS フィルタを SVG 等価のものに変換
+* メディアクエリの整理( pack )
+* minify
+* sourcemap の出力
 
 
 ## やってみて思ったメリット
