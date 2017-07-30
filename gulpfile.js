@@ -37,7 +37,7 @@ gulp.task('sass', function() {
         autoprefixer: {
             browsers: [
                 "last 2 versions", // 主要ブラウザは最新のバージョンから２つ前まで
-                'ie >= 9', // IEは9以上
+                'ie >= 10', // IEは10以上
                 "iOS >= 8", // iOSは8以上
                 "Android >= 4.2", // Androidは4.2以上
             ]

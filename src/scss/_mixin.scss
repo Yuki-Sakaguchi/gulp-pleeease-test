@@ -4,11 +4,10 @@
 @mixin btn($color: #aaa) {
     color: $color;
     display: block;
-    width: 30%;
-    padding: 2.9%;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
     text-align: center;
-    float: left;
-    margin-left: 10px;
     cursor: pointer;
 }
 
