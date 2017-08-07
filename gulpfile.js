@@ -36,13 +36,14 @@ gulp.task('sass', function() {
         // ベンダープレフィックスを追加する境界を設定
         autoprefixer: {
             browsers: [
-                "last 2 versions", // 主要ブラウザは最新のバージョンから２つ前まで
+                'last 2 versions', // 主要ブラウザは最新のバージョンから２つ前まで
                 'ie >= 10', // IEは10以上
-                "iOS >= 8", // iOSは8以上
-                "Android >= 4.2", // Androidは4.2以上
+                'iOS >= 8', // iOSは8以上
+                'Android >= 4.2', // Androidは4.2以上
             ]
         },
-        out         : "main.min.css", // 出力のファイル名を決められる
+        rem         : {rootValue: '10px'},
+        out         : 'main.min.css', // 出力のファイル名を決められる
         minifier    : false, // ミニファイフラグ
     }))
 
